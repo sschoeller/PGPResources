@@ -20,4 +20,4 @@ Finally, if you're really concerned about Quantum Computing, than RSA is a bette
 <a href="https://www.gnupg.org/">GNU Privacy Guard</a> (Installed on most Linux Systems)
 <h3>Guru</h3>
 <a href="https://librepgp.org">LibrePGP</a><br>
-<a href=""https://openpgp.org>OpenPGP</a>
+<a href="https://openpgp.org>OpenPGP</a>
