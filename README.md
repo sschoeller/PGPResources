@@ -12,6 +12,7 @@ NIST and the German Government each have their own standard curves, so if you're
 Finally, if you're really concerned about Quantum Computing, than RSA is a better hedge against it compared to ECC.
 <h2>Resources</h2>
 <h3>Basic</h3>
+<a href="https://emailselfdefense.fsf.org">Email Self-Defense webpage</a>
 <a href="https://www.thunderbird.net">Thunderbird Mail Client</a> (PGP client built-in)<br>
 <a href="https://proton.me">ProtonMail</a>
 <h3>Intermediate</h3>
