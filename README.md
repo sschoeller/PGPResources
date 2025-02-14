@@ -16,7 +16,8 @@ Finally, if you're really concerned about quantum computing, then <a href="https
 <a href="https://www.thunderbird.net">Thunderbird Mail Client</a> (PGP client built-in)<br>
 <a href="https://proton.me">ProtonMail</a>
 <h3>Intermediate</h3>
-<a href="https://www.gpg4win.org/">GPG4Win</a>
+<a href="https://www.gpg4win.org/">GPG4Win</a><br>
+<a href="https://gnupg.org/faq/gnupg-faq.html#glossary">Glossary of GPG FAQ</a>
 <h3>Advanced</h3>
 <a href="https://www.gnupg.org/">GNU Privacy Guard</a> (pre-installed on most Linux Systems)
 <h3>Guru</h3>
