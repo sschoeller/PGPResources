@@ -2,7 +2,7 @@
 Resources for Pretty Good Privacy
 <br>
 <h1>Intro</h1>
-The PGP protocols are easier to use than you think! I've assumed you've done your research on PGP/GPG; otherwise, <a href=#resources">skip down below to "Resources"</a>. I have some advice here, combined with links (and my global gpg.conf settings) to make your journey into it a bit easier.<br>
+The PGP protocols are easier to use than you think! I've assumed you've done your research on PGP/GPG; otherwise, <a href="#resources">skip down below to "Resources"</a>. I have some advice here, combined with links (and my global gpg.conf settings) to make your journey into it a bit easier.<br>
 TL;DR, here are the best public keytypes for most users:<br>
 <b>RSA-3072 or RSA-4096</b>, <b>Ed25519</b> (about equivalent in security to RSA-3072), <b>Ed448</b> and <b>BrainpoolP512r1</b> (not for Protonmail)<br>
 <br>
