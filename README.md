@@ -2,7 +2,7 @@
 Resources for Pretty Good Privacy
 <br>
 <h1>Intro</h1>
-If you've landed on this repo, I've assumed you've done your research on PGP/GPG; otherwise, please read the starred sections in <a href="#resources">"Resources"</a>. I have some advice here, combined with links (and my global gpg.conf settings) to make your journey into it a bit easier.<br>
+If you've landed on this repo, I've assumed you've done your research on PGP/GPG; otherwise, please read the starred sections in <a href="#resources">"Resources"</a>. I have some advice here, combined with links (and my global configuration files) to make your journey into it a bit easier.<br>
 <h1>Recommended Keytypes</h1>
 Based on information from respected researchers and raw information about PGP clients, here are the best public keytypes for most users:<br>
 <b>RSA-3072 or RSA-4096</b>, <b>Ed25519</b> (about equivalent in security to RSA-3072), <b>Ed448</b> and <b>BrainpoolP512r1</b> (not for Protonmail)<br>
