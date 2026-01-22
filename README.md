@@ -14,7 +14,7 @@ Finally, if you're really concerned about quantum computing, then <a href="https
 <h1>Rationale for AES</h1>
 Why is AES preferred? <a href="https://competitions.cr.yp.to/aes.html">AES was standardized via an open competiton</a> near the turn of the last century -- <a href="https://www.schneier.com/essays/archives/2022/08/nists-post-quantum-cryptography-standards-competition.html">just like Kyber in recent years</a> -- and most cryptographers prefer it to this day over other symmetric encryption schemes. In particular, AES-256 is the &quot;gold standard&quot; of encryption.
 <h1>Rationale for SHA-2/3</h1>
-<a href="https://www.nist.gov/news-events/news/2022/12/nist-retires-sha-1-cryptographic-algorithm">SHA-1 will be not be allowed by NIST</a> (for US Govenment use) as of 2030. RIPEMD-160 is the same size as SHA-1. The newer, safe generations of hash algorithms are SHA-2 (SHA-224, SHA-256, SHA-384, SHA-512) and SHA-3.
+<a href="https://www.nist.gov/news-events/news/2022/12/nist-retires-sha-1-cryptographic-algorithm">SHA-1 will be not be allowed by NIST</a> (for US Govenment use) as of 2030. RIPEMD-160 is the same size as SHA-1. The newer, safe generations of hash algorithms are SHA-2 (SHA-224, SHA-256, SHA-384, SHA-512) and SHA-3. SHA-224 is not as safe as it used to be due to quantum computing risks.
 <h1>Resources</h1>
 <h3>Basic*</h3>
 <a href="https://emailselfdefense.fsf.org">Email Self-Defense webpage</a><br>
