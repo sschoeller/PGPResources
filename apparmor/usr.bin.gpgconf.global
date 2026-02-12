@@ -1,0 +1,26 @@
+# Last Modified: Wed Nov 26 09:09 2025
+abi <abi/3.0>,
+
+include <tunables/global>
+
+profile /usr/bin/gpgconf {
+  include <abstractions/base>
+  /usr/bin/gpgconf mrPx,
+  /usr/bin/gpg mrPx,
+  /usr/lib/gnupg/keyboxd mr,
+  /usr/bin/gpg-agent mrPx,
+  /usr/lib/gnupg/scdaemon mrPx,
+  /usr/bin/dirmngr mrPx,
+  /usr/bin/pinentry mr,
+  # External programs
+  /usr/bin/kleopatra mrPx,
+  /usr/bin/okular mrPx,
+  /usr/lib/libreoffice/program/oosplash mr,
+  /usr/lib/libreoffice/program/soffice.bin mrPx,
+  # Config files
+  /etc/gnupg/*.conf rw,
+  /etc/gnupg/*.prf rw,
+  @{HOME}/.gnupg/*.conf rw,
+  # Keyring
+  @{HOME}/.gnupg/pubring.kbx r,
+}

@@ -1,0 +1,47 @@
+# Last Modified: Sat  Apr  16 13:46 2025
+abi <abi/3.0>,
+
+include <tunables/global>
+include <abstractions/base>
+
+profile /usr/bin/gpg {
+  include <abstractions/base>
+  include <abstractions/bash>
+  include <abstractions/consoles>
+  # GPG suite programs
+  /usr/bin/gpg mrix,
+  /usr/bin/gpgparsemail mrix,
+  /usr/bin/gpg-agent mrix,
+  /usr/bin/scdaemon mrix,
+  /usr/bin/gpgsm mrix,
+  /usr/bin/gpgtar mrix,
+  /usr/lib/gnupg/keyboxd mrix,
+  /usr/bin/pinentry mrix,
+  # Hardware RNG
+  /usr/sbin/rngd mrPx,
+  # External programs
+  /usr/bin/apt mrPx,
+  /usr/bin/kleopatra mrPx,
+  /usr/lib/libreoffice/program/oosplash mrix,
+  /usr/lib/libreoffice/program/soffice.bin mrix,
+  /usr/bin/okular mrPx,
+  # GPG configuration files 
+  /etc/gnupg/*.prf r,
+  /etc/gnupg/*.conf r,
+  @{HOME}/.gnupg/* rw,
+  @{HOME}/.gnupg/*.conf r,
+  @{HOME}/.gnupg/openpgp-revocs.d/* rw,
+  @{HOME}/.gnupg/trustdb.gpg rw,
+  @{HOME}/.gnupg/trustdb.gpg.lock rwl,
+  owner /{run,var}/user/[0-9]*/gnupg/* rwl,
+  @{HOME}/.gnupg/random_seed rk,
+  # Keys
+  @{HOME}/.gnupg/pubring.kbx rw,
+  @{HOME}/.gnupg/pubring.kbx.lock rwl,
+  @{HOME}/.gnupg/pubring.kbx.tmp rw,
+  @{HOME}/.gnupg/pubring.kbx~ rw, 
+  @{HOME}/.gnupg/private-keys*.d/* rw,
+  @{HOME}/.gnupg/public-keys.d/* rw, 
+  # User files
+  @{HOME}/**/.gpg rw,
+}
