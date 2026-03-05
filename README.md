@@ -17,6 +17,7 @@ Why is AES preferred? <a href="https://competitions.cr.yp.to/aes.html">AES was s
 <a href="https://www.nist.gov/news-events/news/2022/12/nist-retires-sha-1-cryptographic-algorithm">SHA-1 will be not be allowed by NIST</a> (for US Govenment use) as of 2030. RIPEMD-160 is the same size as SHA-1. The newer, safe generations of hash algorithms are SHA-2 (SHA-224, SHA-256, SHA-384, SHA-512) and SHA-3. SHA-224 is not as safe as it used to be due to quantum computing risks.
 <h1>Resources</h1>
 <h3>Basic*</h3>
+<a href="https://philzimmermann.com/EN/essays/index.html">Phil Zimmermann on PGP</a><br> 
 <a href="https://emailselfdefense.fsf.org">Email Self-Defense webpage</a><br>
 <a href="https://www.thunderbird.net">Thunderbird Mail Client</a> (PGP client built-in)<br>
 <a href="https://proton.me">ProtonMail</a>
